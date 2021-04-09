@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "html, css, js",
   "main": "index.js",
+  "homepage": "https://github.com/Lusine-Sargs-yan/parcel",
   "dependencies": {
     "lodash": "^4.17.21",
     "parcel": "^2.0.0-beta.2"
@@ -10,7 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "parcel serve ./index.html",
-    "build": "parcel build ./index.html"
+    "build": "parcel build ./index.html",
+    "deploy": "gh-pages -d ./"
   },
   "keywords": [
     "html",
